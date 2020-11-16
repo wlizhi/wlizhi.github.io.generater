@@ -1,0 +1,26 @@
+{{ define "main" }}
+    <main aria-role="main">
+        <div>
+            {{ if .Site.Params.Portrait.Path }}
+               <img src="{{ .Site.Params.Portrait.Path }}" class="circle" alt="{{ .Site.Params.Portrait.Alt }}" style="max-width:{{ .Site.Params.Portrait.MaxWidth }}" />
+            {{ end }}
+
+            <!--这里是原生代码，不好看-->
+            <!--<h1>{{ .Site.Title }}</h1>-->
+            <!--这里是自定义代码-->
+            <h2>生命不息，折腾不止</h2>
+            <h2>Welcome to my blog</h2>
+            <!--自定义代码结束-->
+
+            {{- with .Site.Params.homeSubtitle }}
+                <p>{{.}}</p>
+            {{- end }}
+
+            {{- with .Site.Params.social }}
+                <div>
+                    {{ partial "social-icons.html" . }}
+                </div>
+            {{- end }}
+        </div>
+    </main>
+{{ end }}
