@@ -18,6 +18,7 @@ logoHomeLink = "/"
 name = "wlizhi"
 
 [params]
+# light or dark
 defaultTheme = "light"
 #footerLeft = "wlizhi"
 #footerRight = "wlizhi"
