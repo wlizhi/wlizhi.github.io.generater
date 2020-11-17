@@ -6,6 +6,9 @@ languageCode = "zh-Hans"
 theme = "hello-friend-ng"
 paginate = 20
 
+[author]
+name = "wlizhi"
+
 [params]
 defaultTheme = "light"
 #footerLeft = "wlizhi"
