@@ -1,6 +1,6 @@
 #baseurl = "https://untilthecore.github.io/"
-#baseurl = "https://wlizhi.github.io/"
-baseurl = "http://wlz922.top"
+baseurl = "https://wlizhi.github.io/"
+#baseurl = "http://wlz922.top/myblog"
 #baseurl = "http://wlizhi.cc/"
 title = "暗夜零星"
 languageCode = "zh-Hans"
